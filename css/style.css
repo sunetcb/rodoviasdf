@@ -1,0 +1,14 @@
+html, body, #map { margin: 0; padding: 0; height: 100% }
+div#map{
+	width: 100%;
+	height: 600px;
+	margin-bottom: 20px;
+}
+div#legenda{
+	width: 100%;
+	height: 80px;
+}
+	div#legenda ul li {
+		display: inline-block;
+		margin: 5px;
+	}
