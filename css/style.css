@@ -1,14 +1,120 @@
-html, body, #map { margin: 0; padding: 0; height: 100% }
+html, body, #map { font-family: 'Lato', sans-serif; margin: 0; padding: 0; height: 100% }
 div#map{
 	width: 100%;
-	height: 600px;
+	height: 750px;
 	margin-bottom: 20px;
 }
 div#legenda{
 	width: 100%;
 	height: 80px;
+	text-align: center;
 }
 	div#legenda ul li {
 		display: inline-block;
-		margin: 5px;
+		margin: 5px 5px 50px;
+		width: 64px;
+		height: 64px;
+		text-align: center;
 	}
+
+	div#legenda ul li h3{
+		margin: 0px;
+		font-family: 'Lato', sans-serif;
+		font-weight: 300;
+		font-size: 1em;
+	}
+
+	div#legenda ul li p span {
+		margin: 5px;
+		font-size: 1em;
+		font-weight: 300;
+		font-family: 'Lato', sans-serif;
+		line-height: 1.3em;
+	}
+
+	div#legenda ul li p {
+		font-size: 1.4em;
+		display: inline-block;
+		font-weight: 900;
+		text-align: center;
+		line-height: 1;
+		color: #fff;
+		margin-top: 5px;
+		font-family: 'Lato', sans-serif;
+		margin-bottom: 10px;
+	}
+
+	
+
+	div#legenda ul li:nth-child(1) {
+		background-color:#D89B26;
+	}
+	div#legenda ul li:nth-child(2) {
+		background-color:#710CA5;
+	}
+	div#legenda ul li:nth-child(3) {
+		background-color:#3DDE8D;
+	}
+	div#legenda ul li:nth-child(4) {
+		background-color:#D83216;
+	}
+	div#legenda ul li:nth-child(5) {
+		background-color:#003AA5;
+	}
+	div#legenda ul li:nth-child(6) {
+		background-color:#A9DE2D;
+	}
+	div#legenda ul li:nth-child(7) {
+		background-color:#D80C71;
+	}
+	div#legenda ul li:nth-child(8) {
+		background-color:#1A93A5;
+	}
+	div#legenda ul li:nth-child(9) {
+		background-color:#DEC923;
+	}
+	div#legenda ul li:nth-child(10) {
+		background-color:#78FFDD;
+	}
+	div#legenda ul li:nth-child(11) {
+		background-color:#D87150;
+	}
+	div#legenda ul li:nth-child(12) {
+		background-color:#8B3318;
+	}
+	div#legenda ul li:nth-child(13) {
+		background-color:#8B073D;
+	}
+	div#legenda ul li:nth-child(14) {
+		background-color:#158B1B;
+	}
+	div#legenda ul li:nth-child(15) {
+		background-color:#35D83E;
+	}
+	div#legenda ul li:nth-child(16) {
+		background-color:#4E68D8;
+	}
+	div#legenda ul li:nth-child(17) {
+		background-color:#FFDC75;
+	}
+	div#legenda ul li:nth-child(18) {
+		background-color:#FF632B;
+	}
+	div#legenda ul li:nth-child(19) {
+		background-color:#42E597;
+	}
+	div#legenda ul li:nth-child(20) {
+		background-color:#4281E5;
+	}
+	div#legenda ul li:nth-child(21) {
+		background-color:#EFBF0C;
+	}
+	div#legenda ul li:nth-child(22) {
+		background-color:#EF09B1;
+	}
+	div#legenda ul li:nth-child(23) {
+		background-color:#EF1B09;
+	}
+	div#legenda ul li:nth-child(24) {
+		background-color:#918EE5;
+	}	
